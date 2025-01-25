@@ -9,7 +9,7 @@ from sklearn.model_selection import train_test_split
 # Load your dataset (REPLACE THIS WITH YOUR ACTUAL DATA LOADING)
 # Example using a sample dataset:
 data = {'age': [30, 40, 50, 60, 70, 35, 45, 55, 65, 75],
-        'sex': [0, 1, 0, 1, 0, 0, 1, 0, 1, 0],
+        'sex': [F, M, F, M, F, F, M, F, M, F],
         'cholesterol': [180, 220, 190, 250, 210, 195, 215, 185, 240, 205],
         'target': [0, 1, 0, 1, 0, 0, 1, 0, 1, 0]}
 df = pd.DataFrame(data)
